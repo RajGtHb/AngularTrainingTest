@@ -6,7 +6,6 @@ import { PastsearchComponent } from './components/pastsearch/pastsearch.componen
 import { SearchComponent } from './components/search/search.component';
 
 const routes: Routes = [
-  // {path:'',component:HomeComponent},
   {path:'search',component:SearchComponent},
   {path:'pastsearch',component:PastsearchComponent},
   {path:'login',component:LoginComponent},
